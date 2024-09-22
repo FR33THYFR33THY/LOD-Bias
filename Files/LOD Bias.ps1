@@ -45,7 +45,7 @@ Write-Host "Installing: NvidiaProfileInspector . . ."
 # check for file
 if (-Not (Test-Path -Path "$env:TEMP\Inspector.zip")) {
 # download inspector
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
+Get-FileFromWeb -URL "https://github.com/fr33thyfr33thy/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
 # extract files
 Expand-Archive "$env:TEMP\Inspector.zip" -DestinationPath "$env:TEMP\Inspector" -ErrorAction SilentlyContinue
 } else {
