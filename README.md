@@ -9,7 +9,7 @@ LOD Bias (Level of Detail Bias) is a graphics setting that adjusts how detailed 
   Contact me if anyone finds a way for Vulkan
 
 ## Alternative For AMD GPU'S
-- In registry<br>
+- In registry for DX9 only<br>
 Contact me if anyone finds a way
 
 ## Why
